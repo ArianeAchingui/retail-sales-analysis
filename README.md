@@ -1,7 +1,6 @@
 # retail-sales-analysis
 
 ## Data Cleaning Process using Excel
-## Data Cleaning Process
 
 The dataset (Online Retail II from UCI Machine Learning Repository) was cleaned in Excel before analysis. Key steps included:
 
