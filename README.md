@@ -162,3 +162,22 @@ Customers were ranked by total spend to spot high-value clients, helping guide r
 
 # 6. Closing Note  
 These SQL queries confirmed the findings from Python EDA, ensuring consistency across tools and preparing the dataset for use in Power BI.
+
+
+# Power BI Visualizations
+
+- **Purpose:** Transform cleaned transactional data and SQL insights into visual dashboards for business understanding.  
+
+- **Files:** The `.pbix` Power BI file is stored in `PowerBI/`.  
+
+- **Key Insights Visualized:**  
+  - **Revenue by Country:** Highlights top-performing markets. The UK dominates, with other countries showing opportunities for expansion.  
+  - **Monthly Revenue Trend:** Shows seasonality and high-sales months, guiding promotions and inventory planning.  
+  - **Top Products by Revenue:** Focused on the top 10 products driving the most sales, helping prioritize stock and marketing efforts.  
+
+- **Notes:**  
+  - Filters applied to highlight top-performing products.  
+  - Charts include clear titles and formatted axes for easy interpretation.  
+
+  
+
