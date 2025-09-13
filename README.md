@@ -1,5 +1,17 @@
 # retail-sales-analysis
 
+## Project Overview
+This project explores and analyzes the **Online Retail II** dataset to understand sales performance, customer behavior, and product trends.  
+The goal is to build a clear, end-to-end data pipeline:
+
+- **Excel** – Clean raw transactional data (handle missing values, remove duplicates, returns, format dates, etc).  
+- **Python (EDA)** – Explore sales, customers, products, and revenue trends through data visualizations.  
+- **SQL (SQLite)** – Validate insights with queries, aggregate metrics, and prepare the dataset for reporting.  
+- **Power BI** – Design an interactive dashboard to communicate insights visually.
+
+By combining Excel, Python, SQL, and Power BI, this project demonstrates how raw data can be transformed into **actionable business intelligence**, highlighting key revenue drivers and customer segments.
+
+
 ## Data Cleaning Process using Excel
 
 The dataset (Online Retail II from UCI Machine Learning Repository) was cleaned in Excel before analysis. Key steps included:
@@ -34,6 +46,7 @@ The dataset (Online Retail II from UCI Machine Learning Repository) was cleaned 
    * Saved cleaned dataset to: `data/clean/online_retail_sales_clean.xlsx`.
 
 8. **Inserted a new column "total_price"**
+
 
 # Exploratory Data Analysis (EDA) — Online Retail II
 
@@ -105,10 +118,7 @@ Monthly revenue is calculated and visualized. Since `invoice_date` was already f
 This shows high-sales months, guiding promotions and inventory planning.
 
 ---
-
-## Optional Insights (if included in notebook)
-
-- **Top Products:** Identify products generating the most revenue  
+## 7. Top Customers
 - **Key Customers:** Rank customers by total spend to pinpoint the most valuable clients
 
 ---
@@ -119,3 +129,36 @@ This shows high-sales months, guiding promotions and inventory planning.
 - The UK is the primary market, with potential for international growth  
 - Initial exploration confirms the dataset is clean and ready for analysis
 
+
+---
+
+## 1.Validate Key Findings Analyze Data Using SQL
+
+After cleaning the dataset in Excel and exploring it in Python, SQL was used to run targeted queries on the data stored in SQLite.
+The goal was to validate earlier findings, answer business questions, and prepare for Power BI visualizations.
+
+Quick Overview  
+A first pass at the data provided:  
+- Total number of transactions and unique customers (The dataset has 524875 rows, with 4339 unique customers).  
+- Total revenue (10642128.8) 
+
+---
+
+# 2. Revenue by Country
+Total revenue was aggregated by country to identify top markets.  
+The UK generated the highest sales, followed by other smaller markets, suggesting room for growth.
+
+---
+
+# 3. Top 10 Products by Revenue  
+Top 10 products by revenue were extracted, confirming that **Dotcom Postage** produced the highest sales.
+
+---
+
+# 5.Top Customers  
+Customers were ranked by total spend to spot high-value clients, helping guide retention and loyalty strategies.
+
+---
+
+# 6. Closing Note  
+These SQL queries confirmed the findings from Python EDA, ensuring consistency across tools and preparing the dataset for use in Power BI.
