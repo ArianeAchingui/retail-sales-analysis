@@ -166,7 +166,7 @@ These SQL queries confirmed the findings from Python EDA, ensuring consistency a
 
 # Power BI Visualizations
 
-- **Purpose:** Transform cleaned transactional data and SQL insights into visual dashboards for business understanding.  
+- **Purpose:** Transform cleaned transactional data and SQL insights into charts and interactive dashboard for business understanding.  
 
 - **Files:** The `.pbix` Power BI file is stored in `PowerBI/`.  
 
