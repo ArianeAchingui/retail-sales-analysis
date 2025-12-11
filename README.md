@@ -177,7 +177,26 @@ These SQL queries confirmed the findings from Python EDA, ensuring consistency a
 
 - **Notes:**  
   - Filters applied to highlight top-performing products.  
-  - Charts include clear titles and formatted axes for easy interpretation.  
+  - Charts include clear titles and formatted axes for easy interpretation.
+
+-**Recommendations:**
+
+Based on the analysis, the following actions are recommended:
+
+**Focus on the UK market**
+Since the UK generates the majority of revenue, maintaining strong stock levels and targeted promotions can help sustain and grow sales in this core market.
+
+**Explore potential in smaller international markets**
+Countries outside the UK contribute significantly less revenue. Testing localized marketing or adjusting shipping options could help increase sales in these regions.
+
+**Plan inventory around seasonal trends**
+Monthly revenue fluctuates, indicating seasonality. Increasing inventory before high-sales months and running promotions during slow periods can help optimize performance.
+
+**Promote and maintain stock of top-selling products**
+High-revenue items—especially the top 10 products—should be prioritized for inventory planning and visibility in marketing materials.
+
+**Strengthen relationships with top customers**
+A small number of customers account for a large share of revenue. Offering loyalty perks or personalized promotions may help retain these valuable buyers.
 
   
 
