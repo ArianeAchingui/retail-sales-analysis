@@ -6,6 +6,10 @@ This project analyzes online retail transaction data to understand sales perform
 
 The project follows an end-to-end analytics workflow using **Excel/Power Query, SQL, and Power BI**.
 
+## Dashboard Preview
+
+![Online Retail Sales Dashboard](screenshots/dashboard.png)
+
 ## Business Questions
 
 - What are the total sales and number of transactions?
